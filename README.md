@@ -1,3 +1,6 @@
+## Live Demo
+https://voice-to-text-app-using-tauri-deepg.vercel.app/
+
 # Voice-to-Text Desktop App (Tauri + Deepgram)
 
 This Voice-to-Text Desktop App is built with Tauri and React. It enables users to transcribe their speech to text in real-time using the Deepgram API for accurate and low-latency transcription. The app supports push-to-talk voice input with start/stop recording controls and displays the transcribed text instantly.
@@ -30,6 +33,14 @@ Below are screenshots showing the app in action during voice recording and trans
 
 - **Speech Recognition API:**
   - Deepgram API
+ 
+## Environment Variables
+
+Create a `.env` file in the root directory:
+
+VITE_DEEPGRAM_API_KEY=your_deepgram_api_key
+
+> Note: The API key is stored securely using environment variables and is not committed to GitHub.
 
 ## How to Set Up
 
