@@ -69,4 +69,5 @@ Clone the repository to your local machine:
 
 ```bash
 git clone  https://github.com/nitin2001581402/Voice-to-Text-app-using-Tauri-Deepgram.git
-cd voice-to-text-tauri
+cd Voice-to-Text-app-using-Tauri-Deepgram
+
