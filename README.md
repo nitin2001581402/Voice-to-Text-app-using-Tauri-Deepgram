@@ -15,11 +15,19 @@ Below are screenshots showing the app in action during voice recording and trans
 
 ## Features
 
-- Push-to-talk voice input with clear start and stop controls.
-- Real-time audio capture from the microphone.
-- Streaming transcription using Deepgram's WebSocket API.
-- Displays transcribed text live in a textarea.
-- Handles permissions, errors, and connection status gracefully.
+- Push-to-talk voice input using Start and Stop recording buttons
+- Microphone access and real-time audio capture using Web Audio API
+- Live speech-to-text transcription using Deepgram WebSocket API
+- Real-time display of transcribed text in the application
+- Clear transcription functionality
+- Graceful handling of microphone permissions and connection errors
+
+## Architecture Decisions
+
+- The UI layer is built using React components.
+- Audio capture logic is handled separately using the Web Audio API.
+- Deepgram integration is isolated in a service file to maintain separation of concerns.
+- Environment variables are used to secure the Deepgram API key.
 
 ## Technology Stack
 
